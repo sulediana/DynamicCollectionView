@@ -1,4 +1,4 @@
-#Dynamic Collection Views
+#Dynamic Collection View
 The sample application is based on WWDC's presentations of Dynamics and Collection Views.
 
 It creates UIKitAttachmentBehaviors for each UICollectionViewLayoutAttributes and adds them to the DynamicAnimator.
@@ -14,7 +14,9 @@ Scrolling Down
 #Requirements
 
 Xcode 5
+
 iOS 7
+
 ARC
 
 #Summary
