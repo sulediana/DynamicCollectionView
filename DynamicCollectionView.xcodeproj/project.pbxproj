@@ -21,6 +21,7 @@
 		84234FFC17DCE953003BB7FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84234FDE17DCE953003BB7FD /* UIKit.framework */; };
 		8423500417DCE953003BB7FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8423500217DCE953003BB7FD /* InfoPlist.strings */; };
 		8423500617DCE953003BB7FD /* DynamicCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8423500517DCE953003BB7FD /* DynamicCollectionViewTests.m */; };
+		8423501117DCEB86003BB7FD /* DSVerticalLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8423501017DCEB86003BB7FD /* DSVerticalLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		8423500117DCE953003BB7FD /* DynamicCollectionViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DynamicCollectionViewTests-Info.plist"; sourceTree = "<group>"; };
 		8423500317DCE953003BB7FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8423500517DCE953003BB7FD /* DynamicCollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicCollectionViewTests.m; sourceTree = "<group>"; };
+		8423500F17DCEB86003BB7FD /* DSVerticalLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSVerticalLayout.h; sourceTree = "<group>"; };
+		8423501017DCEB86003BB7FD /* DSVerticalLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSVerticalLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				84234FEC17DCE953003BB7FD /* Main.storyboard */,
 				84234FEF17DCE953003BB7FD /* DSViewController.h */,
 				84234FF017DCE953003BB7FD /* DSViewController.m */,
+				8423500F17DCEB86003BB7FD /* DSVerticalLayout.h */,
+				8423501017DCEB86003BB7FD /* DSVerticalLayout.m */,
 				84234FF217DCE953003BB7FD /* Images.xcassets */,
 				84234FE117DCE953003BB7FD /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8423501117DCEB86003BB7FD /* DSVerticalLayout.m in Sources */,
 				84234FE717DCE953003BB7FD /* main.m in Sources */,
 				84234FF117DCE953003BB7FD /* DSViewController.m in Sources */,
 				84234FEB17DCE953003BB7FD /* DSAppDelegate.m in Sources */,
